@@ -221,6 +221,9 @@ img {
         margin: 20px;
         font-size: medium;
     }
+    .fotos {
+        margin-right: 10px;
+    }
 }
 @media (max-width:854px) and (min-width:394px) {
     .cartoes {
@@ -248,6 +251,9 @@ img {
         flex-wrap: wrap;
         margin: 20px;
     }
+    .fotos {
+        margin-right: 10px;
+    }
 }
 @media (min-width:1px) and (max-width:392px) {
     .links {
@@ -259,5 +265,8 @@ img {
     }
     .texto-apresentaçao {
         font-size: 11px;
+    }
+    .fotos {
+        margin-right: 10px;
     }
 }
