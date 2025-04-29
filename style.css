@@ -63,9 +63,7 @@ img {
     align-items: center;
     height: 15vh;
     text-align: center;
-    line-height: 1.3;
-    margin-bottom: 10px;
-    margin: 50px;
+    margin: 20px;
 }
 .apresentaçao {
     flex: 1;
@@ -274,7 +272,7 @@ img {
         margin-right: 25px;
     }
     .texto-apresentaçao {
-        font-size: 11px;
+        font-size: xx-small;
     }
     .fotos {
         margin-right: 10px;
