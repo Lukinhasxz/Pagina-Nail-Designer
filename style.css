@@ -35,6 +35,14 @@ a {
     font-weight: bold;
     margin-right: 30px;
 }
+.links a {
+    border-bottom: solid 2px transparent;
+}
+.links a:hover {
+    font-size: medium;
+    border-color: #CC0066;
+    transition: all 0.6s ease;
+}
 img {
     width: 40%;
     margin-right: 50px;
