@@ -1,8 +1,5 @@
 <!-- (Mudança de cor img) background: linear-gradient(to right, #f8bbd0, #fce4ec);
 -->
-
-<!-- (Mudança de cor img) background: linear-gradient(to right, #f8bbd0, #fce4ec);
--->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -12,6 +9,9 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
+<!--header e nav-->
+
 <body>
     <div class="header">
         <h1 class="logo">Teste Nails</h1>
@@ -28,6 +28,8 @@
             </ul>
         </nav>
     </div>
+
+<!--Conteúdo Principal-->
 
     <div class="main">
         <div class="texto-main">
@@ -47,6 +49,8 @@
         </div>
     </div>
 
+<!--Serviços-->
+
     <div id="serviços">
         <h2 class="s">Serviços</h2>
     <div class="cartoes-de-serviço">
@@ -56,6 +60,9 @@
             <p class="paragrafo-cartoes">Blindagem e esmaltação em gel, unhas temáticas (eventos, festas, datas comemorativas)</p>
         </div>
     </div>
+
+<!--Galeria-->
+
     <div id="galeria">
         <h2 class="g">Galeria</h2>
     </div>
@@ -66,6 +73,9 @@
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFqLJcM-8eF_bHaqbau5zJCiiqudMQkm5xZw&s" alt="unha3">
         </div>
     </div>
+
+<!--Contatos-->
+
     <div id="contatos">
         <h2 class="c">Contatos</h2>
         <div class="ctts">
@@ -76,6 +86,9 @@
             </ul>
         </div>
     </div>
+
+<!--Benefícios-->
+
     <div id="beneficios">
         <h2 class="bnfs">Beneficios</h2>
         <div class="bnf">
@@ -88,6 +101,9 @@
             </ul>
         </div> 
     </div>
+
+<!--Depoimentos-->
+
     <div id="depoimentos">
         <h2 class="d">Depoimentos</h2>
         <div class="dpnts">
@@ -98,6 +114,9 @@
             <p class="card depoimentos">“Além de talentosa, é super profissional e pontual. Ambiente limpo, confortável e um trabalho incrível. Recomendo de olhos fechados!” - Beatriz</p>
         </div>
     </div>
+
+<!--FAQ-->
+
     <div id="faq">
         <h2 class="f">FAQ</h2>
         <div class="faq-grid">
@@ -141,11 +160,42 @@
             </div>
         </div>
     </div>
+
+<!--Fim do Conteúdo Principal-->
+
+<!--Formulario-->
+  <form action="https://formsubmit.co/lucaspagliotofranca@gmail.com" method="POST">
+    <h2>Agendamento</h2>
+
+    <label class="email" for="email">Email:</label>
+    <input type="text" name="email" id="email" placeholder="Digite seu email:" required>
+
+    <label class="serviço" for="escolhas">Serviço:</label>
+    <select name="escolhas" id="escolhas">
+      <option class="opc" value="">Opções:</option>
+      <option value="manicure-simples">Manicure Simples</option>
+      <option value="manicure+NailArt">Manicure + Nail Art</option>
+      <option value="Alongamento">Alongamento de Unhas</option>
+      <option value="Pacote Mensal VIP">Pacote Mensal VIP</option>
+    </select>
+    <label for="comentarios">Comentarios:</label>
+    <textarea name="area-comentarios" id="comentarios"></textarea>
+    <input class="botao-agendamento" type="submit" value="Agendar">
+  </form>
+
+
+
+
+<!--Footer-->
+
     <div class="footer">
         <h2>@2025 Criado Por Lucas Paglioto</h2>
         <a href="link instagram"><i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram-icon lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg></i></a>    
         <a href="link zap"><i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-icon lucide-message-circle"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg></i></a>
         <a href="link twitter"><i><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter-icon lucide-twitter"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg></i></a>
     </div>
+    
+
+
 </body>
 </html>
