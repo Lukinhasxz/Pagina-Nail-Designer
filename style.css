@@ -124,12 +124,11 @@ img {
 }
 .fotos {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
-    gap: 20px;
     flex-wrap: wrap;
     width: 100%;
-    margin-left: 60px;
+    gap: 10px;
 }
 .fotos img {
     object-fit: cover;
@@ -383,6 +382,9 @@ input, #comentarios, #escolhas {
     .faq-grid, .faq-grid2 {
         grid-template-columns: 1fr;
     }
+    .main img {
+        margin-right: 15px;
+    }
 }
 
 /* Menores Celulares Possiveis*/
@@ -412,11 +414,14 @@ input, #comentarios, #escolhas {
     .texto-main {
         margin: 40px;
     }
-        form {
+    form {
         font-size: 14px;
     }
     form h2 {
         margin-bottom: 10px;
         font-size: 15px;
+    }
+    .main img {
+        margin-right: 15px;
     }
 }
