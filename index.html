@@ -1,5 +1,7 @@
 <!-- (Mudança de cor img) background: linear-gradient(to right, #f8bbd0, #fce4ec);
 -->
+<!-- (Mudança de cor img) background: linear-gradient(to right, #f8bbd0, #fce4ec);
+-->
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -35,9 +37,12 @@
         <div class="texto-main">
             <h2>Beleza em suas mãos💅</h2>
             <p class="r">Vamos juntas cuidar das suas unhas com estilo, delicadeza e aquele toque de personalidade que só você tem?</p>
+            <a href="#agendamento">Agendar</a>
         </div>
         <img src="https://img.freepik.com/vetores-premium/design-de-logotipo-de-salao-de-beleza-com-letra-n_1024563-14.jpg" alt="imagem logo">
     </div>
+
+<!--Apresentaçao-->
 
     <div id="sobre">
         <div class="apresentaçao">
@@ -137,13 +142,16 @@
             </div>
         </div>
     </div>
+
+<!--Como Funciona-->
+
     <div id="funciona">
         <h2 class="fnc">Como Funciona ?</h2>
           <div class="faq-grid2">
             <div class="faq-col2">
                 <h3>Como Fazer?</h3>
                 <ul>
-                    <li>Você agenda online ou por WhatsApp</li>
+                    <li>Você agenda online</li>
                     <li>Escolhe o serviço e estilo desejado</li>
                     <li>Recebe atendimento com carinho e excelência</li>
                     <li>Sai com unhas maravilhosas e um sorriso no rosto</li>
@@ -161,30 +169,27 @@
         </div>
     </div>
 
-<!--Fim do Conteúdo Principal-->
-
 <!--Formulario-->
-  <form action="https://formsubmit.co/lucaspagliotofranca@gmail.com" method="POST">
-    <h2>Agendamento</h2>
+  <div id="agendamento">  
+    <form action="https://formsubmit.co/lucaspagliotofranca@gmail.com" method="POST">
+        <h2>Agendamento</h2>
 
-    <label class="email" for="email">Email:</label>
-    <input type="text" name="email" id="email" placeholder="Digite seu email:" required>
+        <label class="email" for="email">Email:</label>
+        <input type="text" name="email" id="email" placeholder="Digite seu email:" required>
 
-    <label class="serviço" for="escolhas">Serviço:</label>
-    <select name="escolhas" id="escolhas">
-      <option class="opc" value="">Opções:</option>
-      <option value="manicure-simples">Manicure Simples</option>
-      <option value="manicure+NailArt">Manicure + Nail Art</option>
-      <option value="Alongamento">Alongamento de Unhas</option>
-      <option value="Pacote Mensal VIP">Pacote Mensal VIP</option>
-    </select>
-    <label for="comentarios">Comentarios:</label>
-    <textarea name="area-comentarios" id="comentarios"></textarea>
-    <input class="botao-agendamento" type="submit" value="Agendar">
-  </form>
-
-
-
+        <label class="serviço" for="escolhas">Serviço:</label>
+        <select name="escolhas" id="escolhas">
+            <option class="opc" value="">Opções:</option>
+            <option value="manicure-simples">Manicure Simples</option>
+            <option value="manicure+NailArt">Manicure + Nail Art</option>
+            <option value="Alongamento">Alongamento de Unhas</option>
+            <option value="Pacote Mensal VIP">Pacote Mensal VIP</option>
+        </select>
+        <label for="comentarios">Comentarios:</label>
+        <textarea name="area-comentarios" id="comentarios"></textarea>
+        <input class="botao-agendamento" type="submit" value="Agendar">
+    </form>
+  </div>
 
 <!--Footer-->
 
