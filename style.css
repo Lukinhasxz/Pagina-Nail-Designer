@@ -63,11 +63,22 @@ img {
     line-height: 1.6;
     font-weight: bold;
 }
-.texto-main a:hover {
-    background-color: #ff58ab;
+.main p {
+    margin-bottom: 20px;
+}
+.main a {
+    font-size: large;
+    color: white;
+    background-color: #CC0066;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main a:hover {
+    font-size: 15px;
     color: #CC0066;
-    transition: all 0.5s ease;
-    box-shadow: 0px 0px 10px #CC0066;
+    background-color: #ff58ab;
+    transition: all 0.6s ease;
+    box-shadow: 0px 0px 5px #CC0066;
 } 
 #sobre {
     display: flex;
