@@ -269,6 +269,11 @@ form {
     margin: 30px;
     border-radius: 10px;
 }
+form:hover {
+    background: linear-gradient(150deg, #ffc8fa, #FFDDFC);
+    transform: translateY(5px);
+    transition: all 0.5s ease;
+}
 form label {
     font-weight: bold;
     color: #CC0066;
@@ -297,6 +302,10 @@ input, #comentarios, #escolhas {
     border: solid 2px #CC0066;
     border-radius: 10px;
     font-weight: bold;
+    color: #CC0066;
+    outline: none;
+}
+input::placeholder {
     color: #CC0066;
 }
 /* PCs */
