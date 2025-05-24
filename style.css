@@ -148,6 +148,7 @@ img {
     height: 200px;          
     border-radius: 8px;
     box-shadow: 0px 0px 25px #ff0080;
+    margin-left: 25px;
 }
 .fotos img:hover {
     transform: translateY(5px);
