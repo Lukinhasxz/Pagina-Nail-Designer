@@ -23,9 +23,11 @@ a {
     align-items: center;
 }
 .logo {
+    font-size: 40px;
     flex: 1;
     color: #CC0066;
-    padding: 20px;
+    padding: 30px;
+    font-family: 'Dancing Script';
 }
 .links {
     display: flex;
