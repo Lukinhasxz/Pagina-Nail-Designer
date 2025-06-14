@@ -175,10 +175,10 @@
         <h2>Agendamento</h2>
 
         <label class="email" for="email">Email:</label>
-        <input type="text" name="email" id="email" placeholder="Digite seu email:" required>
+        <input type="text" name="email" class="email" placeholder="Digite seu email:" required>
 
         <label class="serviço" for="escolhas">Serviço:</label>
-        <select name="escolhas" id="escolhas">
+        <select name="escolhas" id="escolhas" required>
             <option class="opc" value="">Opções:</option>
             <option value="manicure-simples">Manicure Simples</option>
             <option value="manicure+NailArt">Manicure + Nail Art</option>
@@ -187,7 +187,7 @@
         </select>
         <label for="comentarios">Comentarios:</label>
         <textarea name="area-comentarios" id="comentarios"></textarea>
-        <input class="botao-agendamento" type="submit" value="Agendar">
+        <input onclick="mudançaTexto()" class="botao-agendamento" type="submit" value="Agendar">
     </form>
    </section>
 
@@ -202,4 +202,25 @@
     
     
 </body>
+
+    <script>
+
+        
+
+        //mudando texto de agendamento ao clicar
+        function mudançaTexto(){
+
+            //pegando valores
+            const email = document.querySelector('.email').value
+            const serviço = document.querySelector('.serviço').value
+
+            //criando condiçao
+            if(email && serviço){
+                const botaoAgendamento = document.querySelector('.botao-agendamento')
+                botaoAgendamento.value = 'Agendamento Concluído'
+            }
+        }
+
+    </script>
+
 </html>
