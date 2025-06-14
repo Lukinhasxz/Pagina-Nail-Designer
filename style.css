@@ -41,7 +41,6 @@ a {
     border-bottom: solid 2px transparent;
 }
 .links a:hover {
-    font-size: medium;
     border-color: #CC0066;
     transition: all 0.6s ease;
 }
