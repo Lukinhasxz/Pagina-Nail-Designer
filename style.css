@@ -328,6 +328,10 @@ input::placeholder {
     .texto-apresentaçao {
         margin-top: 15px;
     }
+    form {
+        width: 50%;
+        margin-left: 25%;
+    }
 }
 
 /* Celulares Tbm Menores */
@@ -419,6 +423,9 @@ input::placeholder {
     }
     .main img {
         margin-right: 15px;
+    }
+    .fotos {
+        gap: 10px;
     }
 }
 
