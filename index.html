@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nail Designer</title>
+    <title>Nicolly-Nail-Designer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
@@ -14,7 +14,7 @@
 
 <body>
     <header class="header">
-        <h1 class="logo">Teste Nails</h1>
+        <h1 class="logo">Nicolly Nails</h1>
         <nav>
             <ul class="links">
                 <li><a href="#sobre">Sobre</a></li>
@@ -152,7 +152,7 @@
                 <ul>
                     <li>Você agenda online ou por WhatsApp</li>
                     <li>Escolhe o serviço e estilo desejado</li>
-                    <li>Recebe atendimento com carinho e excelência</li>
+                    <li>Recebe confirmação em atendimento com carinho e excelência</li>
                     <li>Sai com unhas maravilhosas e um sorriso no rosto</li>
                 </ul>
             </div>  
@@ -170,26 +170,29 @@
 
 <!--Formulario-->
 
-  <section id="agendamento" class="animar">  
-    <form action="https://formsubmit.co/lucaspagliotofranca@gmail.com" method="POST">
-        <h2>Agendamento</h2>
+<section id="agendamento" class="animar">  
+  <form id="form-agendamento">
+      <h2>Agendamento</h2>
 
-        <label class="email" for="email">Email:</label>
-        <input type="email" name="email" class="email" placeholder="Digite seu email:" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Digite seu email:" required>
 
-        <label class="serviço" for="escolhas">Serviço:</label>
-        <select name="escolhas" id="escolhas" required>
-            <option class="opc" value="">Opções:</option>
-            <option value="manicure-simples">Manicure Simples</option>
-            <option value="manicure+NailArt">Manicure + Nail Art</option>
-            <option value="Alongamento">Alongamento de Unhas</option>
-            <option value="Pacote Mensal VIP">Pacote Mensal VIP</option>
-        </select>
-        <label for="comentarios">Comentarios:</label>
-        <textarea name="area-comentarios" id="comentarios"></textarea>
-        <input class="botao-agendamento" type="submit" value="Agendar">
-    </form>
-   </section>
+      <label for="servico">Serviço:</label>
+      <select id="servico" required>
+          <option value="">Opções:</option>
+          <option value="Manicure Simples">Manicure Simples</option>
+          <option value="Manicure + Nail Art">Manicure + Nail Art</option>
+          <option value="Alongamento de Unhas">Alongamento de Unhas</option>
+          <option value="Pacote Mensal VIP">Pacote Mensal VIP</option>
+      </select>
+
+      <label for="comentarios">Comentários:</label>
+      <textarea id="comentarios"></textarea>
+
+      <input class="botao-agendamento" type="submit" value="Agendar">
+  </form>
+</section>
+
 
 <!--Footer-->
 
