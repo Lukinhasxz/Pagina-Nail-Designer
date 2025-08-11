@@ -289,6 +289,13 @@ form:hover {
     transform: translateY(5px);
     transition: all 0.5s ease;
 }
+form select {
+    font-weight: bold;
+    color: #CC0066;
+    padding: 10px;
+    border: solid 2px #CC0066;
+    border-radius: 10px;
+}
 form label {
     font-weight: bold;
     color: #CC0066;
