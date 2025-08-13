@@ -295,6 +295,7 @@ form select {
     padding: 10px;
     border: solid 2px #CC0066;
     border-radius: 10px;
+    outline: none;
 }
 form label {
     font-weight: bold;
